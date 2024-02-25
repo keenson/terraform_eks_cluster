@@ -26,6 +26,6 @@ aws configure
 
 terraform apply
 
-aws eks update-kubeconfig --region us-east-1 --name my-cluster-eks
+aws eks update-kubeconfig --region us-east-1 --name eks
 
 kubectl apply -f ./k8s/app.yaml
