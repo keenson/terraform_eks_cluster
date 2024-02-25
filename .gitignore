@@ -38,4 +38,12 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+
+# Added
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+node_modules
 # End of https://www.toptal.com/developers/gitignore/api/terraform
